@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,40 +6,50 @@
   <title>Metric Bloom | Analytics Consulting</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --dark-green: #10372A;
+      --moss-green: #3D5A40;
+      --accent-green: #6F8F6D;
+      --soft-white: #F9F9F7;
+    }
+
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #ffffff;
-      color: #002060;
+      background-color: var(--soft-white);
+      color: var(--dark-green);
     }
 
     header {
-      background-color: #4B9CD3;
-      padding: 80px 20px 60px;
+      background-color: var(--moss-green);
+      padding: 60px 20px 40px;
       text-align: center;
       color: white;
+    }
+
+    .logo {
+      width: 140px;
+      margin-bottom: 20px;
     }
 
     header h1 {
       font-size: 2.8em;
       font-weight: 700;
-      margin: 0 0 10px;
+      margin: 10px 0;
     }
 
     header p {
-      font-size: 1.25em;
-      margin-bottom: 25px;
+      font-size: 1.2em;
       max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto 25px;
     }
 
     .cta-button {
-      background-color: #002060;
+      background-color: var(--dark-green);
       color: white;
-      padding: 14px 30px;
+      padding: 12px 28px;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 6px;
       font-weight: 600;
       font-size: 1em;
     }
@@ -54,14 +63,13 @@
     section h2 {
       font-size: 2em;
       margin-bottom: 20px;
-      color: #002060;
-      font-weight: 600;
+      color: var(--dark-green);
     }
 
     section p, section li {
       font-size: 1.05em;
       line-height: 1.6;
-      color: #333;
+      color: #2F3E37;
     }
 
     ul {
@@ -73,7 +81,7 @@
     }
 
     ul li::marker {
-      color: #4B9CD3;
+      color: var(--accent-green);
     }
 
     .contact-info p {
@@ -81,13 +89,13 @@
     }
 
     .contact-info a {
-      color: #002060;
+      color: var(--dark-green);
       text-decoration: none;
       font-weight: 600;
     }
 
     .testimonial {
-      background-color: #f5f5f5;
+      background-color: #f0f4f1;
       padding: 30px;
       border-radius: 10px;
       font-style: italic;
@@ -100,24 +108,25 @@
     }
 
     .image-wrapper img {
-      width: 90%;
-      max-width: 700px;
+      width: 100%;
+      max-width: 720px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     footer {
-      background-color: #f5f5f5;
+      background-color: #e5ebe7;
       padding: 30px 20px;
       text-align: center;
       font-size: 0.9em;
-      color: #666;
+      color: #445C4B;
     }
   </style>
 </head>
 <body>
 
   <header>
+    <img class="logo" src="https://i.imgur.com/vqA4udX.png" alt="Metric Bloom Logo" />
     <h1>Data-Driven Growth. Beautifully Delivered.</h1>
     <p>Metric Bloom helps businesses transform raw data into meaningful insights—across finance, airlines, and digital platforms.</p>
     <a class="cta-button" href="mailto:info@metricbloom.io">Let's Talk</a>
@@ -125,12 +134,12 @@
 
   <section>
     <h2>About</h2>
-    <p>Hi, I’m Shayla — the strategist behind Metric Bloom. I’m a digital analyst with over 7 years of experience across the airline, fintech, and e-commerce industries. I specialize in helping companies get more value from their data by ensuring tools like Adobe Analytics, Quantum Metric, and Glassbox are implemented properly and used with purpose.</p>
+    <p>I’m Shayla — the strategist behind Metric Bloom. I’m a digital analyst with over 7 years of experience across the airline, fintech, and e-commerce industries. I specialize in helping companies get more value from their data by ensuring tools like Adobe Analytics, Quantum Metric, and Glassbox are implemented properly and used with purpose.</p>
     <p>With a mix of technical know-how and sharp business sense, I help clients discover real insights and bring clarity to digital journeys. Whether it's dashboard setup, campaign analytics, or A/B testing insights — I meet businesses where they are and help them bloom.</p>
   </section>
 
   <section class="image-wrapper">
-    <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?auto=format&fit=crop&w=1200&q=80" alt="Analytics Dashboard Visual">
+    <img src="https://images.unsplash.com/photo-1611078489935-0cb964de46cd?auto=format&fit=crop&w=1200&q=80" alt="Analytics Laptop Workspace">
   </section>
 
   <section>
@@ -162,7 +171,7 @@
     <div class="contact-info">
       <p>Email: <a href="mailto:info@metricbloom.io">metricbloominsights@gmail.com</a></p>
       <p>LinkedIn: <a href="#">linkedin.com/in/shaylagomez</a></p>
-      <p>Instagram: <a href="#">@@metricbloominsights</a></p>
+      <p>Instagram: <a href="#">@metricbloominsights</a></p>
     </div>
   </section>
 
